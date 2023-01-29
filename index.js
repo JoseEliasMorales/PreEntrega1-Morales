@@ -1,5 +1,8 @@
 
 let welcome = prompt("Bienvenido! Dinos tu nombre: ")
+if(welcome ===null){
+    welcome = "Anónimo"
+}
 let comp = true;
 while(comp ===true){
 
