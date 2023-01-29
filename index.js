@@ -1,14 +1,12 @@
 
 let welcome = prompt("Bienvenido! Dinos tu nombre: ")
-if(welcome ===null){
+console.log(welcome);
+if(welcome ===""){
     welcome = "Anónimo"
 }
+console.log(welcome);
 let comp = true;
 while(comp ===true){
-
-
-    
-
     let plataforma = prompt(welcome+", dinos para que plataforma quieres calcular el precio: ")
     let precio
     let play
